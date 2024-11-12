@@ -1,0 +1,180 @@
+ *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-sarif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #081b29;
+        }
+        .wrapper{
+            position: relative;
+            width: 750px;
+            height: 420px;
+            background: transparent;
+            border: 3px solid #0ef;
+            
+            box-shadow: 1px 1px 10px #0ef;
+        }
+        .wrapper .form-box {
+            position: absolute;
+            top: 0;
+            width: 50%;
+            height: 100%;
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .form-box h2{
+            font-size: 40px;
+            color: #fff;
+            text-align: center;
+            margin-top: -50px;
+            text-shadow: 1px 1px 10px White;
+
+        }
+        .form-box .input-box{
+            position: relative;
+            width: 100%;
+            height: 50px;
+            
+            margin: 25px 0;
+        }
+        .input-box input{
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid #fff;
+            font-size: 16px;
+            color: #fff;
+            font-weight: 600;
+            transition: .5s;
+            padding-right: 23px;
+        }
+        .input-box input:focus,
+        .input-box input:valid{
+            border-bottom-color: #0ef;
+
+
+        }
+        .input-box label{
+        position: absolute;
+        top: 50%;
+        left:0; 
+        transform: translateY(-50%);
+        font-size: 16px;
+        color: #fff;
+        pointer-events: none;   
+        transition: .5s;
+        }
+        .input-box input:focus~label,
+        .input-box input:valid~label{
+            top: -5px;
+            color: #0ef;
+
+        }
+
+        .input-box i{
+            position: absolute;
+            top: 50%;
+            right: 0%;
+            transform: translateY(-50%);
+            font-size: 18px;
+            color: #fff;
+            transition: .5s;
+        }
+        .input-box input:focus~i,
+        .input-box input:valid~i{
+            color: #0ef;
+        }
+        .btn{
+            position: relative;
+            width: 100%;
+            height: 45px;
+            background: transparent;
+            border: 2px solid #0ef;
+            outline: none;
+            border-radius: 40px;
+            cursor: pointer;
+            font-size: 16px;
+            color: #fff;
+            font-weight: 600;
+            margin-top: 20px;
+            background: linear-gradient(#081b29,#0ef);
+            box-shadow: 1px 1px 10px #0ef;
+
+        }
+        
+        .btn:hover{
+            background: linear-gradient(#0ef,#081b29);
+            transition: 0.30s;
+            box-shadow: 1px 1px 10px #0ef;
+        }
+        .form-box .logreg-link{
+            font-size: 14px;
+            color: #fff;
+            text-align: center;
+            margin: 20px 0 10px;
+
+        }
+        .logreg-link p a {
+            color: #0ef;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .wrapper .form-box.login{
+            left: 0%;
+            padding: 0 60px 0  40px ;
+        }
+         .info-text{
+            position:absolute ;
+            top:-10vh;
+            width: 50vh;
+            height: 100%;
+            
+           margin-left: 46vh;
+           text-align: right;
+        
+         padding: 0 40px 60px 150px;
+        }
+
+        h3{
+            font-size: 36px;
+            color: #fff;
+            line-height: 1.3;
+            text-transform: uppercase;
+            align-items: center;
+            
+            margin-top: 20vh;
+
+        }
+        .info-text p {
+            font-size: 20px;
+            color: #fff;
+        }
+        .bg-animat{
+            position: absolute;
+            top: -4px;
+            right: 0;
+            width: 800px;
+            height: 550px;
+            background: linear-gradient(45deg, #081b29, #0ef);
+            transform: rotate(10deg) skewY(40deg);
+            transform-origin: bottom right;
+            border: 2px solid #0ef;
+            box-shadow: 1px 1px 10px #0ef;
+           
+        }
+       
+
+    
+        
+        
